@@ -32,7 +32,8 @@ packages = [
     'keyboard',
     'autopep8',
     'pylint',
-    'pynput'  # monitora os inputs do sistema
+    'pynput',  # monitora os inputs do sistema
+    'xlrd' #necessary to load .xls files using pandas
 ]
 
 for package in packages:
